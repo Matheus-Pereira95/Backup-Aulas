@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(72, 117, 243);
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+
+
+#area{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.685);
+    margin: 20px auto;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.445);
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+#n1 input{
+    margin-top: 20px;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#n1 h3{
+    font-size: 25px;
+}
+
+#ans h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#ans p{
+    margin-bottom: 5px;
+}
+
+#res{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px
+  
+}
+
+
+
+
+footer{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}

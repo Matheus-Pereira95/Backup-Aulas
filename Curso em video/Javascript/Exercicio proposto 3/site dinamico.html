@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Site dinamico </title>
+     <link rel="stylesheet" href="site dinamico.css">
+    
+ </head>
+ <body>
+    <header> 
+       <h1>Vamos contar! </h1>
+    </header>
+
+    <section id='box'>
+        <div id="dados">
+            <label for="inicio"> Inicio: </label>
+            <input type="number" id="inicio" aria-required="true" aria-errormessage="Preencha todos os dados corretamente!"> 
+            <p><label for="fim"> Fim: </label>
+            <input type="number" id="fim" required></p>
+            <p><label for="passo"> Passo </label>
+            <input type="number" id="passo" required></p>
+            <input type="button" value="Contar" id="contar" onclick="calcular()">
+
+            <div id="txt">
+                <p id="res">Preparando a contagem . . . </p> 
+            </div>
+
+            </div>
+
+           
+            
+            
+
+    </section>
+
+    <footer>
+        <p> &copy; Curso em Video </p>
+    </footer>
+
+   <script src="site dinamico.js"></script>
+     
+ </body>
+ </html>

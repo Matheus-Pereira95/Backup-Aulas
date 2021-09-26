@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #ccc;
+    width: 1280px;
+    height: 720px;
+    
+}
+
+#add, #sub{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+#add p, #sub p{
+    margin-top: 20px
+}
