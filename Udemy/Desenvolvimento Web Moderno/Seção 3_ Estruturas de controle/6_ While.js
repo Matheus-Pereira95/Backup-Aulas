@@ -15,3 +15,13 @@ console.log('Terminou!!')
 /*
     Usar o while é apropriado para executar laços que tenham uma quantidade indeterminada de repetiçoes.
 */ 
+
+//'-----------------------------------------------------------------------------------------------------------------'
+
+// While com valores definidos 
+
+let contador = 1
+while(contador<=10){
+    console.log(contador)
+    contador++
+}
