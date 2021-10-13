@@ -18,7 +18,9 @@ console.log (pessoa)
 Object.freeze(pessoa) 
 
 /*
+
  Comando .freeze "congela" o valor dentro de um objeto, evitando assim que este possa ser alterado. 
+
 */
 
 pessoa.nome = 'Vai dar erro!!'
