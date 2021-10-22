@@ -8,3 +8,12 @@ const aula2 = new Aula ('Até Breve', 456)
 
 console.log(aula1)
 console.log(aula2)
+
+// simulando o new
+
+function novo(f, ...params) {
+    const obj = {}
+    obj.__proto__ = f.prototype
+    f.apply(obj, params)
+    return obj
+}
